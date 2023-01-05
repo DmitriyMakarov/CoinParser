@@ -11,7 +11,7 @@ def link_parsing():
     #find_table = soup.find_all('div', {'class': "database-coins _list-wrap"})
     for data in soup.find_all('div', {'class': "database-coins _list-wrap"}):
         for row in data.find_all('tr'):
-            print(dir(row))
+            print((row))
 
     #item_parser(catalog_numbers_list)
 
